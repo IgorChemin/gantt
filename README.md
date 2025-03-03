@@ -6,7 +6,7 @@ Este projeto foi desenvolvido com o intuito de validar a criação de um gráfic
 
 Aqui está uma visualização do gráfico de Gantt atual (ainda em desenvolvimento):
 
-![Gráfico de Gantt](imagens/gantt-chart.png)
+![Gráfico de Gantt](img.png)
 
 
 ## Objetivo
