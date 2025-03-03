@@ -2,6 +2,13 @@
 
 Este projeto foi desenvolvido com o intuito de validar a criação de um gráfico de Gantt utilizando Flutter Web (versão 3.22.3) e Dart (versão 3.4.4). O gráfico de Gantt tem como objetivo exibir as tarefas de um projeto e permitir filtros por EDT (Estrutura de Detalhamento de Trabalho). O projeto está atualmente em pausa enquanto a estrutura do projeto é reformulada de acordo com novas diretrizes.
 
+## Exemplo de Gráfico de Gantt
+
+Aqui está uma visualização do gráfico de Gantt atual (ainda em desenvolvimento):
+
+![Gráfico de Gantt](imagens/gantt-chart.png)
+
+
 ## Objetivo
 
 Inicialmente, a estrutura do projeto foi planejada com dois níveis de detalhamento:
