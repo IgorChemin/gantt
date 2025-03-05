@@ -47,6 +47,15 @@ class _GanttViewState extends State<GanttView> {
               await controller.GET_CALENDARIO();
             },
           ),
+          IconButton(
+            icon: const Icon(Icons.list_alt_rounded),
+            color: Colors.white,
+            tooltip: 'Nova Estrutura',
+            onPressed: () async {
+              //chama via get nova view prjmods_view.dart
+              Get.toNamed('/prjmods');
+            },
+          ),
         ],
       ),
       body: GANTTCHART(controller),

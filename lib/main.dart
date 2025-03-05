@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'ganttchart/view/gantt_view.dart';
+import 'modelo_nova_estrutura/view/prjmods_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +13,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      // Substituindo MaterialApp por GetMaterialApp
       title: 'Gantt Chart',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -19,6 +22,13 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: GanttView(),
+      getPages: [
+        // Defina as rotas para sua navegação aqui
+        GetPage(name: '/', page: () => GanttView()),
+        GetPage(
+            name: '/prjmods',
+            page: () => PrjmodsView()), // Exemplo de página de destino
+      ],
     );
   }
 }
